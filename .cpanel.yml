@@ -2,5 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/exmas1037/repositories/master
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp  -R service/. $DEPLOYPATH
+    - /bin/cp  -R blueprints/. $DEPLOYPATH
+    - /bin/cp  -R __init__.py/. $DEPLOYPATH
+    
