@@ -6,7 +6,7 @@ from blueprints import books_blueprint
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
-app.config['API_TITLE'] = 'Mi libreria'
+app.config['API_TITLE'] = 'Mi libreria V2'
 app.config['API_VERSION'] = 'v1'
 app.config['OPENAPI_VERSION'] = "3.0.2"
 app.config['OPENAPI_JSON_PATH'] = "api-spec.json"
